@@ -3,7 +3,7 @@ import { CourseService } from './course.service';
 
 @Controller('course')
 export class CourseController {
-  // Injecting the service using constructor
+  
   constructor(private readonly courseService: CourseService) {}
 
   @Get()
